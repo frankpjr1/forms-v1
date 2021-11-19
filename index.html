@@ -2,62 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Forms-v1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Forms-v2</title>
 </head>
 <body>
+<!-- form structure -->
+<section>
+    <form action="Get">
+        <!-- Div to contain the form -->
+        <div class="form-container">
+            <div class="input-container"><p>Welcome to GitHub !<br>Let's begin the adventure</p>
+                <!--div to contain email elements for layout -->
+                <div class="email-container"><p>Enter your email</p>
+                    <div class="input-group"><svg xmlns="http://www.w3.org/2000/svg" class="hw-1" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                        <input type="button" value="Continue" class="input-button-form"></div></div>
+                </div>
 
-<form method="get">
-    <div class="form-head">
-        <h4>Welcome to GitHub !<br>Let's begin the adventure</h4>
-
-        <label for="email">Enter your email</label><br><input type="email" id="email" max="30">
-        <button type="submit" aria-label="Continue">Continue</button>
-
-    </div>
-    <br><br><br>
-
-
-    <div>
-        <h3>Log in or sign up</h3>
-        <hr>
-        <h2>Welcome to Airbnb</h2>
-
-        <label for="cars"></label>
-        <select name="cars" id="cars">
-            <option value="volvo">United States  (+1)</option>
-            <option value="saab"></option>
-
-        </select>
-        <br><br>
-        <!-- Customer phone number-->
-
-        <div class="phone">
-            <label for="phone"></label>
-            <input type="tel" id="phone" name="phone" placeholder="Phone number" max="7" required><br>
-            <p>Well call or text you to confirm your number. Standard message and data rates apply.<br><span><strong>Privacy Policy</strong></span>
-            </p>
-        <button type="submit">Continue</button>
         </div>
 
-        <!-- content divider -->
-        <div class="content-divider">
-            <hr>
-            <p>or</p>
-            <hr>
-        </div>
-
-        <!-- search -->
-        <div class="search-divider">
-            <button type="submit">Continue with Facebook</button>
-            <br>
-            <button type="submit">Continue with Google</button>
-            <br>
-            <button type="submit">Continue with Apple</button>
-            <br>
-            <button type="submit">Continue with email</button>
-            <br></div>
-    </div>
-</form>
-
+    </form>
+</section>
 </body>
 </html>
