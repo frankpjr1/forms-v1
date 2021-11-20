@@ -2,17 +2,127 @@
 body {
     display: flex;
     justify-content: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
+/* Styles for form container */
 
 .form-container {
-    width: 40%;
+    width: 400px;
     margin: 2em 2em;
     border: grey 1px solid;
     border-radius: 5px;
     padding: 10px;
 }
 
+/* Styles for h2 */
+
+.form-container h2 {
+    text-align: center;
+    font-size: medium;
+}
+
+
+/* Styles for h1 */
+
+.form-container h1 {
+
+    font-size: large;
+}
+
+/* Styles for phone-group */
+
 .phone-group {
     display: flex;
     flex-direction: column;
 }
+
+/* Styles for phone button */
+
+.phone-btn {
+    width: 100%;
+    background-color: deeppink;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+
+/* Styles for form content divider */
+
+.form-container-content-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Styles for form content divider div */
+
+.form-container-content-divider > div {
+    height: 1px;
+    width: 40%;
+    background-color: lightslategrey;
+}
+
+/* Styles for form container content divider paragraph */
+
+.form-container-content-divider > p {
+    padding: 0 5px;
+
+}
+
+
+/* Styles for search button container */
+
+.search-btn-container button {
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: .7em;
+    background-color: white;
+    border-radius: 5px;
+    border: grey 1px solid;
+    font-size: .9em;
+}
+
+/* Styles for form content paragraph */
+
+.form-content  > p {
+    font-size: .7em;
+    color: grey;
+}
+
+
+/* Styles for form content anchor tag */
+
+.form-content a {
+    color: #111111;
+    font-weight: bold;
+}
+
+
+/* Styles for form search button positioning */
+
+.search-btn {
+    position: relative;
+}
+
+
+/* Styles for form search button */
+
+button.search-btn {
+    padding: 10px 0;
+}
+
+
+/* Styles for form search button image */
+
+.search-btn img{
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+}
+
